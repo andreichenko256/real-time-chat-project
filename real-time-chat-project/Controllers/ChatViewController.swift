@@ -327,6 +327,7 @@ extension ChatViewController: UIImagePickerControllerDelegate, UINavigationContr
         } else if let image = info[.originalImage] as? UIImage {
             sendPhoto(image)
         }
+        //
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
